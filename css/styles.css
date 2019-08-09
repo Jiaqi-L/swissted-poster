@@ -1,0 +1,240 @@
+body{
+	width: 100vw;
+	height:100vh;
+	margin: 0 auto;
+	background-color: #ff71ce;
+	font-family:"Roboto", sans-serif;
+}
+
+.header{
+	width: 100%;
+	height: 20%;
+	padding: 50px;
+	padding-top: 20px;
+
+}
+
+.header1 {
+	width: 100%;
+	height: 50%;
+}
+
+.header1 p{
+	color:#01cdfe;
+	width:20%;
+	float:right;
+	text-align: left;
+	padding-right: 50px;
+}
+
+.header2 {
+	width: 100%;
+	height: 50%;
+}
+
+.header2 p{
+	color:#01cdfe;
+	width:20%;
+	float:right;
+	text-align: left;
+	padding-right: 50px;
+}
+
+.design-container{
+	width:100%;
+	height:10%;
+}
+
+.container-left{
+	width:80%;
+	height:100%;
+	float:left;
+
+}
+
+.container-left p{
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+	color: #fffb96;
+	margin: 0 auto;
+	
+	
+}
+
+.container-right{
+	width:20%;
+	height:100%;
+	float:right;
+}
+
+.container-right p{
+	font-size: 30px;
+	text-align: left;
+	color: #05ffa1;
+	margin: 0 auto;
+	
+}
+
+.graphic{
+	 width: 50%;
+	 height: 65%;
+	 margin-left: 25%;
+	 margin-right: 25%;
+	 
+}
+
+.inner-box1{
+     margin: 0 auto;
+	 height: 600px;
+     width: 600px;
+     background-color: #ff71ce;
+     border-radius: 50%;
+     animation-name: changecolor1;
+	 animation-duration: 1.8s;	
+	 animation: changecolor1 1.8s linear infinite reverse;
+	 display:grid;
+	 align-items:center;
+	 justify-content: center;
+
+}
+@keyframes changecolor1 {
+	from {background-color: #ff71ce;}
+	to {background-color: #01cdfe;}
+}
+   
+.inner-box2{
+     margin: 0 auto;	 
+	 height: 500px;
+     width: 500px;
+     background-color: #01cdfe;
+     border-radius: 50%;
+     animation-name: changecolor2;
+	 animation-duration: 1.7s;
+	 animation: changecolor2 1.7s linear infinite reverse;
+	 display:grid;
+	 align-items:center;
+	 justify-content: center;
+
+}
+@keyframes changecolor2 {
+	from {background-color: #01cdfe;}
+	to {background-color: #05ffa1;}
+}
+
+.inner-box3{
+     margin: 0 auto;
+	 height: 400px;
+     width: 400px;
+     background-color: #05ffa1;
+     border-radius: 50%;
+     animation-name: changecolor3;
+	 animation-duration: 1.6s;
+	 animation: changecolor3 1.6s linear infinite reverse;
+	 display:grid;
+	 align-items:center;
+	 justify-content: center;
+
+}
+@keyframes changecolor3 {
+	from {background-color: #05ffa1;}
+	to {background-color: #b967ff;}
+}  
+
+.inner-box4{
+     margin: 0 auto;
+	 height: 300px;
+     width: 300px;
+     background-color: #b967ff;
+     border-radius: 50%;
+     animation-name: changecolor4;
+	 animation-duration: 1.5s;
+	 animation: changecolor4 1.5s linear infinite reverse;
+	 display:grid;
+	 align-items:center;
+	 justify-content: center;
+
+}
+@keyframes changecolor4 {
+	from {background-color: #b967ff;}
+	to {background-color: #fffb96;}
+}    
+
+.inner-box5{
+     margin: 0 auto;
+	 height: 200px;
+     width: 200px;
+     background-color: #fffb96;
+     border-radius: 50%;
+     animation-name: changecolor5;
+	 animation-duration: 1.4s;
+	 animation: changecolor5 1.4s linear infinite reverse;
+	 display:grid;
+	 align-items:center;
+	 justify-content: center;
+
+}
+@keyframes changecolor5 {
+	from {background-color: #fffb96;}
+	to {background-color: #ff71ce;}
+}    
+
+.inner-box6{
+     margin: 0 auto;
+	 height: 100px;
+     width: 100px;
+     background-color: #ff71ce;
+     border-radius: 50%;
+     animation-name: changecolor6;
+	 animation-duration: 1.3s;
+	 animation: changecolor6 1.3s linear infinite reverse;
+	 display:grid;
+	 align-items:center;
+	 justify-content: center;
+
+}
+@keyframes changecolor6 {
+	from {background-color: #ff71ce;}
+	to {background-color: #012702;}
+}   
+
+.inner-box7{
+     margin: 0 auto;
+	 height: 60px;
+     width: 60px;
+     background-color: #012702;
+     border-radius: 50%;
+     animation-name: changecolor7;
+	 animation-duration: 1.2s;
+	 animation: changecolor7 1.2s linear infinite reverse;
+	 display:grid;
+	 align-items:center;
+	 justify-content: center;
+
+}
+@keyframes changecolor7 {
+	from {background-color: #012702;}
+	to {background-color: #01cdfe;}
+}   
+
+.inner-box8{
+     margin: 0 auto;
+	 height: 25px;
+     width: 25px;
+     background-color: #01cdfe;
+     border-radius: 50%;
+     animation-name: changecolor8;
+	 animation-duration: 1s;
+	 animation: changecolor8 1s linear infinite reverse;
+	 display:grid;
+	 align-items:center;
+	 justify-content: center;
+
+}
+@keyframes changecolor8 {
+	from {background-color: #01cdfe;}
+	to {background-color: #05ffa1;}
+}   
+
+      
+
